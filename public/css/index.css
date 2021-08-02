@@ -428,6 +428,8 @@ input{
 
 .precioPago{
     margin-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 16px;
 }
 .mainCarrito{
     text-align: center;
@@ -459,6 +461,17 @@ input{
 }
 
 /*Product detail*/
+
+    .productosRelItem{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
+    .productosRelItem .item{
+        margin-right: 50px;
+    }
 
 .itemDetalle{
     background-color: white;
