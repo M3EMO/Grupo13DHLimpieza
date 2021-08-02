@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpiando a la competencia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="mainHeader">
+        <div class="logo">
+            <a href="/"><img src="img\logo.jpeg" alt="logo de marca" class="logoDeMarca"></a>
+        </div>
+        <div class="barraDeBusqueda">
+            
+            <form action="/index.html" method="GET">
+            <input type="text" name="barraDeBusqueda" id="barraDeBusqueda" placeholder="Buscar productos, Marcas                                  ">
+            </form>
+            <a href="/"> <i class="fas fa-search"></i></a>
+        </div>
+        <div class="login"> 
+            <a href="/login"><p>Loguearse</p></a>
+        </div>
+        <div class="register"> 
+            <a href="/register"><p>Registrarse</p></a>
+        </div>
+        <div class="carrito"> 
+            <p>
+            <a href="/carrito"><i class="fas fa-shopping-cart"></i></a>
+            </p>
+        </div>
+    </div>
+    
+    <div class="menuLoginRegister">
+        <i class="fas fa-bars"></i>
+    </div>
+</header>
+
+<main>
+    <section class="formularioRegister">
+        <div class="subtitle">
+            <h2>Registrarse</h2>
+        </div>
+        <form action="/" method="GET">
+            <div>
+                <label for="nombreApellido">Nombre y apellido:</label>
+                <input type="text" name="nombreApellido" id="nombreApellido" value="Ej: Juan Ignacio Peralta" required> 
+            </div>
+            <div>
+                <label for="usuario">Nombre de usuario:</label>
+                <input type="text" name="usuario" id="usuario" required> 
+            </div>
+            <div>
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="nacimiento" id="nacimiento" required> 
+            </div>
+            <div>
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" name="domicilio" id="domicilio" required> 
+            </div>
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña" required> 
+            </div>
+            <div>
+                <label for="confirmContraseña">Confirmar contraseña</label>
+                <input type="password" name="confirmContraseña" id="confirmcontraseña" required> 
+            </div>
+            <div>
+                <input type="checkbox" name="recordar" id="recordar">
+                <label for="recordar">¿Recordar contraseña?</label>
+            </div>
+            <div class="botones">
+                <button type="reset" class="resetInfo"> Borrar información</button>
+                <button type="submit" class="sendInfo"> Crear usuario </button>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footerFinal"> 
+        <div class="parteFooter">
+            <i class="fas fa-sign-in-alt"></i>
+            <h2>Sobre nosotros</h2>
+            <p>Limpiando a la competencia es una tienda online de productos de limpieza hecha para la compra online. Somos especialistas en productos de limpieza y estamos empezando a dominar el mercado online. ¡No dudes en fijarte en nuestros catalogos!</p>
+        </div>
+        <div class="parteFooter">
+            <i class="fas fa-envelope-open-text"></i>
+            <h2>Escribinos</h2>
+                <div class="escribinos">
+                    <p>Nuestro mail: LimpiandoCompetencia@gmail.com</p>
+                </div>
+        </div>
+    </div> 
+    <div class="footerFinal2">
+        <div class="logoFooter">
+            <a href="/"><img src="img\logo.jpeg" alt="logo" class="logo"></a>
+        </div>        
+        <div class="copyright">
+            <h2 class="copyright">Copyright © 2012-2020 Limpiando Competencia S.A.</h2>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

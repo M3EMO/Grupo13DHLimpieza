@@ -1,0 +1,648 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #83c2fd;
+}
+
+i{
+    font-size: 35px;
+}
+
+header{
+    background-color: #59a0fc;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 10;
+}
+
+.mainHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    
+}
+
+.barraDeBusqueda{
+    background-color: #ffff;
+    width: 50%;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barraDeBusqueda input{
+    border: none;
+    padding-left: 5px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.barraDeBusqueda a{
+    padding-right: 2%;
+    font-size: 10px;
+}
+
+.barraDeBusqueda i{
+    font-size: 20px;
+}
+
+.logoDeMarca{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.logo{
+    max-width: 100px;
+    width: 9vh;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+    font-weight: 650;
+    font-size: 75%
+}
+
+
+.login a{
+    text-decoration: none;
+    color: white;
+    font-weight: 650;
+    font-size: 75%;
+    margin: auto;
+}
+
+.login{
+    display: none;
+    background-color: rgb(49, 84, 243);
+    padding: 10px;
+    padding-left: 1%;
+    padding-right: 3%;
+    border-radius: 15px;
+    max-width: 100px;
+    text-align: center;
+    
+}
+
+.login:hover{
+    background-color: rgb(0, 40, 216);
+    transition: 0.25s;
+}
+
+.register{
+    display: none;
+    background-color: rgb(5, 143, 0);
+    padding: 10px;
+    padding-left: 1%;
+    padding-right: 3%;
+    border-radius: 15px;
+    max-width: 100px;
+}
+.register:hover{
+    background-color: rgb(6, 182, 0);
+    transition: 0.25s;
+}
+
+.carrito{
+    margin-right: 20px;
+    max-width: 75px;
+}
+
+.carrito i:hover{
+    color: blueviolet;
+}
+
+.menuLoginRegister{
+    margin-top: 30px;
+    background-color: #1259c3;;
+    color: #ffffff;
+    max-width: 50px;
+    border-radius: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.menuLoginRegister i{
+    font-size: 20px;
+}
+
+main{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-right: 5%;
+    margin-top: 100px;
+}
+
+.banner{
+    margin-top: 1%;
+}
+
+.banner img{
+    width: 70%;
+}
+
+.menuCategorias{
+    display: none;
+}
+
+.menuDesplegable{
+    margin-top: 30px;
+    background-color: #ffffff;;
+    color: #3d51ff;
+    max-width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-left: none;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 5%;
+    width: 15%;
+}
+
+.menuDesplegable i{
+    font-size: 12px;
+}
+
+.price {
+    font-size: 18px;
+    border: 1px;
+    margin-right: 5px;
+}
+
+.descu {
+    font-size: 16px;
+    color: #39b54a;
+    border: 1px
+}
+
+.tituloItem{
+    font-size:16px;
+}
+
+.description{
+    border-top: solid 1px #ebebeb;
+    text-align: start;
+}
+
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item img{
+    height: auto;
+    margin: auto;
+    display: block;
+    max-height: 130px;
+    max-width: 180px;
+    width: 75%;
+    min-width: 100px;
+}
+
+.camion i{
+    color: #39b54a;;
+    font-size: 15px
+
+}
+
+.camion{
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    left: 90%;
+    top: -15px;
+}
+
+.item{
+    background-color: white;
+    margin-left: auto;    
+    margin-right: auto; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    max-width: 300px;
+}
+
+.botonCarrito{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.botonCarrito input{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(5, 143, 0);
+    border: 1px solid rgb(7, 122, 3);
+    font-weight: bold;
+    color: white;
+}
+
+.botonCarrito input:hover{
+    background-color: rgb(7, 197, 0);
+
+}
+
+footer{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footerFinal{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.parteFooter{
+    padding: 20px;
+    margin: auto;
+    max-width: 45%;
+}
+
+.escribinos p{
+    padding-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    width: 100%;
+}
+
+.volverArriba{
+    background-color: rgb(240, 240, 240);
+}
+
+.volverArriba a{
+    text-decoration: none;
+    color: rgb(93, 117, 226);
+}
+
+.volverArriba h1{
+    font-size: 50px;
+    margin: auto;
+}
+
+.volverArriba p{
+    font-size: 20px;
+    max-width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    border-top: 1px solid rgb(145, 145, 145);
+}
+
+.copyright{
+    font-size: 16px;
+    color: white;
+    padding-top: 30px;
+}
+
+.footerFinal2{
+    background-color: rgb(99, 127, 253);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.logoFooter img{
+    border-radius: 50%;
+}
+
+/*login*/
+
+form div{
+    margin-bottom: 35px;
+}
+
+form input{
+    border: solid 0.5px black;
+    
+}
+
+.formularioLogin{
+    margin: auto;
+    background-color: #ebebeb;
+    max-width: 600px;
+    padding: 80px 100px 100px 100px;
+    margin-bottom: 7px;
+}
+
+.botonEnviar{
+    margin-top: 20px;
+    padding-top: 45px;
+}
+
+.subtitle{
+    font-size: 24px;
+    padding-top: 100px;
+}
+.subtitle h2{
+    padding-bottom: 80px;
+}
+
+.botonEnviar button{
+    font-weight: bold;
+    background-color: #03264C;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    display: inline-block;
+    border-style: none;
+    transition: all 0.4s ease;
+}
+.botonEnviar button:hover{
+    background-color: #1259c3;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #222222
+}
+
+/*Carrito*/
+
+.itemCarrito{
+    background-color: white;
+    margin-left: auto;    
+    margin-right: auto; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    max-width: 300px;
+}
+
+.itemCarrito img{
+    height: auto;
+    margin: auto;
+    display: block;
+    max-height: 130px;
+    max-width: 180px;
+    width: 75%;
+    min-width: 100px;
+}
+
+
+.productosCompra{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.precioTotal{
+    background-color: lightgray;
+    margin: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 0.5%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.precioPago{
+    margin-bottom: 20px;
+}
+.mainCarrito{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.botonCarrito{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.botonCarrito input{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(5, 143, 0);
+    border: 1px solid rgb(7, 122, 3);
+    font-weight: bold;
+    color: white;
+}
+
+.botonCarrito input:hover{
+    background-color: rgb(7, 197, 0);
+
+}
+
+/*Product detail*/
+
+.itemDetalle{
+    background-color: white;
+    margin-left: auto;    
+    margin-right: auto; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    max-width: 900px;
+    display: flex;
+}
+
+.itemDetalle img{
+    height: auto;
+    margin: auto;
+    display: block;
+    width: 100%;
+    min-width: 100px;
+}
+
+.descriptionDetalle{
+    border-top: solid 1px #ebebeb;
+    text-align: start;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.botonCarritoDetalle{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 15px;
+    max-width: 100%;
+    position: relative;
+    top: 55%;
+}
+
+.botonCarritoDetalle input{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(5, 143, 0);
+    border: 1px solid rgb(7, 122, 3);
+    font-weight: bold;
+    color: white;
+}
+
+.botonCarritoDetalle input:hover{
+    background-color: rgb(7, 197, 0);
+
+}
+
+.botones button{
+    font-weight: bold;
+    background-color: rgb(49, 84, 243);
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    display: inline-block;
+    border-style: none;
+    transition: all 0.4s ease;
+}
+.botones button:hover{
+    background-color: #1259c3;
+    box-shadow: 0 0 10px rgb(53, 53, 53);
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #4602c5
+}
+
+/*Registrar*/
+
+.formularioRegister{
+    margin: auto;
+    background-color: #ebebeb;
+    max-width: 600px;
+    padding: 0 100px 10px 100px;
+    margin-bottom: 7px;
+}
+
+@media (min-width:500px) {
+    .login{
+        display: flex;
+        
+    }
+
+    .register{
+        display: flex;
+    }
+
+    .menuLoginRegister{
+        display: none;
+    }
+
+    .menuCategorias{
+        display: block;
+        padding-right: 2%;
+        width: 25%;
+        background-color: #a1e4a9;
+        border-radius: 15px;
+        margin-top: 10px;
+        max-width: 150px;
+        border: 2px solid #1259c3;
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        max-height: 700px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 25px;
+    }
+
+    .menuCategoriasText{
+        margin-top: 12px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menuCategorias div{
+        width: 100%;
+        text-align: left;
+    }
+
+    .menuCategoriasText h3{
+        font-size: 15px;
+        margin-bottom: 5px  ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .menuCategoriasText a{
+        text-decoration: none;
+        border-top: 1px solid black ;
+        color: black;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+
+    .escribinos p{
+        padding-top: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5vw;
+        width: 100%;
+    }
+
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 48%;
+    }
+
+    .sectionProducts {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .menuDesplegable{
+        display: none;
+    }
+
+    .productosOfertas{
+        position: relative;
+        right: -5vw;
+        width: 70%;
+    }
+    .footerFinal{
+        display: flex;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .item{
+        margin-right: 10px;
+        width: 30%;
+    }
+
+    .item:hover{
+        box-shadow: 0px 0px 20px rgb(39, 39, 39);;
+    }
+
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "grupo13dhlimpieza",
+  "version": "1.0.0",
+  "description": "Una tienda online de productos de limpieza hecha para la compra online.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M3EMO/Grupo13DHLimpieza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M3EMO/Grupo13DHLimpieza/issues"
+  },
+  "homepage": "https://github.com/M3EMO/Grupo13DHLimpieza#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2"
+  }
+}
