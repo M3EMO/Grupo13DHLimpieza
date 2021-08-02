@@ -568,7 +568,7 @@ input{
         max-height: 700px;
         position: -webkit-sticky;
         position: sticky;
-        top: 25px;
+        top: 125px;
     }
 
     .menuCategoriasText{
